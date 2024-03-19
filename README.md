@@ -1,11 +1,13 @@
-# udemy-step-up-python
+# python-exercism
+
+exercismというコーディング試験サイトの学習帳簿です
 
 ## exercismの実行コマンド
 
 ~~~
 docker-compose run --rm python-exercism poetry run python ghost-gobble-arcade-game/arcade_game.py
 
-docker-compose run --rm python-exercism poetry run python ghost-gobble-arcade-game/arcade_game_test.py
+docker-compose run --rm python-exercism poetry run pytest ghost-gobble-arcade-game/arcade_game_test.py
 ~~~
 
 
