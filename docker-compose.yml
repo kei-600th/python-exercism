@@ -1,0 +1,8 @@
+version: '3'
+services:
+  python-exercism:
+    container_name: python-exercism
+    build: ./
+    volumes:
+    - ./exercises:/src
+    command: tail -f /dev/null

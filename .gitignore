@@ -1,0 +1,7 @@
+.venv/
+
+# Pythonのコンパイル済みファイルを無視
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
