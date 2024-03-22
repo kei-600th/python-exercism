@@ -4,5 +4,5 @@ services:
     container_name: python-exercism
     build: ./
     volumes:
-    - ./exercises:/src
+    - ./python:/src
     command: tail -f /dev/null

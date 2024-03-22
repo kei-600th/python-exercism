@@ -1,5 +1,5 @@
 {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-python.black-formatter",
-    "python.analysis.extraPaths": ["./exercises/.venv/lib/python3.11/site-packages"]
+    "python.analysis.extraPaths": ["./python/.venv/lib/python3.11/site-packages"]
 }
